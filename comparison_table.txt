@@ -1,0 +1,12 @@
+COMPARISON TABLE
+
+Aspect                         Max Heap             Linear Search
+----------------------------------------------------------------------
+Find maximum                  O(1)                 O(n)
+Insert new score              O(log n)             O(1)*
+Maintain highest score        Efficient            Requires search
+Maximum for given data        95                   95
+Comparisons in this run      12 (build heap)       7 (search)
+
+* Appending to an unsorted array is O(1), but finding the maximum
+  afterward requires O(n).

@@ -1,0 +1,35 @@
+COMPLEXITY ANALYSIS
+
+1. Finding the maximum
+
+Max Heap:
+The maximum value is stored at the root of the max heap.
+Time complexity: O(1)
+
+Linear Search:
+The array must be scanned to find the largest value.
+Time complexity: O(n)
+
+2. Inserting a new score
+
+Max Heap:
+A new score is inserted at the end and may move upward to restore the heap property.
+Time complexity: O(log n)
+
+Linear Search:
+If scores are kept in an unsorted array, a new score can be appended in O(1).
+However, finding the new maximum by linear search takes O(n).
+
+3. Increasing the number of students
+
+Max Heap:
+The highest score remains directly available at the root after each insertion.
+Insertion costs O(log n).
+
+Linear Search:
+Finding the highest score requires scanning the scores.
+The search costs O(n).
+
+4. Overall observation
+
+For continuously maintaining and retrieving the highest score, the Max Heap provides direct access to the maximum and supports efficient insertion.

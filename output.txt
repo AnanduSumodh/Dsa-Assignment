@@ -1,0 +1,21 @@
+===== MAX HEAP INSERTION TRACE =====
+Insert 78 -> comparisons: 0, Heap: [78]
+Insert 92 -> comparisons: 1, Heap: [92, 78]
+Insert 65 -> comparisons: 1, Heap: [92, 78, 65]
+Insert 88 -> comparisons: 2, Heap: [92, 88, 65, 78]
+Insert 95 -> comparisons: 2, Heap: [95, 92, 65, 78, 88]
+Insert 72 -> comparisons: 1, Heap: [95, 92, 65, 78, 88, 72]
+Insert 84 -> comparisons: 2, Heap: [95, 92, 84, 78, 88, 65, 72]
+Insert 90 -> comparisons: 3, Heap: [95, 92, 84, 90, 88, 65, 72, 78]
+
+Max Heap result:
+Maximum score (heap root) = 95
+Total comparisons to build heap = 12
+
+===== LINEAR SEARCH =====
+Maximum score (linear search) = 95
+Total comparisons = 7
+
+===== SUMMARY =====
+Max Heap : max = 95, comparisons = 12
+Linear Search : max = 95, comparisons = 7

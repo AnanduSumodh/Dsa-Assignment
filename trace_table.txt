@@ -1,0 +1,14 @@
+TRACE TABLE - MAX HEAP INSERTION
+
+Insertion    Comparisons    Heap after insertion
+78           0              [78]
+92           1              [92, 78]
+65           1              [92, 78, 65]
+88           2              [92, 88, 65, 78]
+95           2              [95, 92, 65, 78, 88]
+72           1              [95, 92, 65, 78, 88, 72]
+84           2              [95, 92, 84, 78, 88, 65, 72]
+90           3              [95, 92, 84, 90, 88, 65, 72, 78]
+
+Total heap insertion comparisons = 12
+Final maximum score = 95
